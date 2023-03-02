@@ -10,6 +10,8 @@ interface IRequest {
   email: string;
 }
 
+
+
 class CreatePlayerService {
   public async execute({ name, password, email }: IRequest): Promise<Player> {
     console.log('create player')

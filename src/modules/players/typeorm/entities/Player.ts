@@ -23,7 +23,6 @@ class Player {
   @Column()
   avatar: string;
 
-
   @CreateDateColumn()
   createdAt: Date;
 
